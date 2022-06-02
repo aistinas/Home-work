@@ -1,0 +1,388 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'DM Sans', sans-serif;
+}
+
+/* header */
+
+.header {
+    padding: 0px 80px;
+    height: 90px; 
+    background: #FFFFFF;  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.header-first-block {
+   display: flex;
+   width: 657px;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.logo-black {
+    height: 47px;
+}
+
+.block-text {
+    display: flex;
+    width: 471px;
+    justify-content: space-between;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 29px;
+    color: rgba(0, 0, 0, 0.9);
+}
+
+.header-second-block {
+    display: flex;
+    align-items: center;
+}
+
+.telephone {
+    font-style: normal;
+    font-size: 18px;
+    line-height: 23px;
+    color: #000000;
+    margin-right: 40px;    
+}
+
+.image2 {
+    width: 16px;
+}
+
+.image2 {
+    width: 20px;
+    padding-top: 3px;
+}
+
+.image3 {
+    width: 20px;
+}
+
+.border {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: #F2F3F5;;
+    width: 48px;
+    height: 48px;
+    margin-right: 20px; 
+}
+
+.nomargin {
+    margin: 0;
+}
+
+
+/* 2-nd block */
+
+.second-block {
+    padding: 0px 80px;
+    height: 600px; 
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+ 
+.input {
+    width: 514px;
+    height: 60px;
+    left: 141px;
+    top: 466px;
+    border: 2px solid rgba(0, 0, 0, 0.4);
+    border-radius: 8px;
+    padding-left: 15px;
+    padding-right: 88px;
+    color: rgba(0, 0, 0, 0.4);
+    font-size: 18px;
+}
+    
+.input1 {
+    display: flex;
+   
+}
+
+.border3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 7px;
+    background-color: #4200FF;
+    width: 75px;
+    height: 58px;
+    margin-left: -76.5px;
+    margin-top: 1px;
+}
+
+.second-block-left-size {
+    padding-top: 141px;
+    padding-left: 62px;
+    width: 627px;
+    background: #F5F5F5;
+}
+
+h1 {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700px;
+    font-size: 41px;
+    line-height: 53px;
+    margin-bottom: 10px;
+    width: 580px;
+}
+
+.left-side-text {
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 28px;
+line-height: 36px;
+margin-bottom: 30px;
+}
+
+.second-block-right-size {
+   width: 1000px;
+   height: 100%;
+   background-image: url('./images/tyre-two.png'), url('./images/shadow.svg');
+   background-repeat: no-repeat;
+   background-size: 100%;
+   background-color: #F5F5F5;
+   background-position: left 0 top 30px, left 0 top 350px;
+}   
+    
+/* 3-th block */
+
+.third-block {
+    padding: 0px 80px;
+    height: 140px; 
+    background:  #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 81px;
+    
+}
+
+.card-one {
+    width: 400px;
+    border: 1.5px solid #F2F2F2;
+    border-radius: 5px;
+    display: flex;
+    margin-right: 20px;
+}
+
+.card-two {
+    width: 400px;
+    border: 1.5px solid #F2F2F2;
+    border-radius: 5px;
+    display: flex;
+    margin-right: 20px;
+}
+
+.card-three {
+    width: 400px;
+    border: 1.5px solid #F2F2F2;
+    border-radius: 5px; 
+    display: flex;
+}
+
+
+.chair {
+    width: 105px;
+    background: #F9F9F9;
+}
+
+.tyre {
+    width: 135px;
+    background: #F9F9F9;              
+}
+
+.wheel {
+    width: 117px;
+    background: #F9F9F9;
+}
+
+.h2 {
+    
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    color: #000000;
+    
+}
+
+.card-text-padding {
+    padding-left: 15px;
+    padding-top: 36px;
+}
+
+.izlang {
+    width: 193px;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+/* 4-th block */
+
+.four-block {
+  
+    padding: 0px 80px;
+    display:flex;
+    margin-bottom: 133px;
+
+}
+
+.four-block-left {
+    min-width: 380px;
+    background: #F7F7F7;
+    border-radius: 5px;
+    margin-right: 20px;  
+}
+
+.four-block-right {
+   width: 894px;
+   display: flex;
+   flex-wrap: wrap;
+}
+
+.menu-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 76px;
+    border-radius: 5px;
+}
+
+.menu-item-selected {
+    background: #4200FF;
+}
+
+.menu-item-first {
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.menu-item-vector {
+    padding-right: 29.51px;
+}
+
+.whee {
+    background: url("./images/vector-wheel2.png");
+    background-size: contain;
+}
+
+.whee2 {
+    background: url("./images/vector-wheel.png");
+    background-size: contain;
+}
+
+.chair2 {
+    background: url("./images/chair-little.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.acumulator {
+    background: url("./images/vector-accumulator.png");
+    background-size: contain;
+}
+
+.icon {
+    margin-right: 19px;
+    width: 36px;
+    height: 36px;
+}
+
+
+.card-tyre {
+    width: 278px;
+    height: 356px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+/* .card-tyre:nth-child(3n) {
+    margin-right: 0;
+}
+
+.card-tyre:nth-child(6n) {
+    margin-right: 0;
+} */
+    
+
+.image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 25px;
+    padding-bottom: 18px;
+    }
+.image-block {
+    width: 278px;
+    height: 229px;
+    left: 480px;
+    top: 950px;
+    background: #F7F7F7;
+    border-radius: 5px 5px 0px 0px;
+}
+
+h3 {
+    font-size: 17px;
+     line-height: 22px;
+    color: #000000;
+     margin-bottom: 10px;
+     width: 222px;
+     height: 44px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.stars {
+    margin-left: 20px;
+    
+}
+
+.stars1 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between; 
+    margin-top: 24px;
+}
+
+.price {
+    margin-right: 20px;
+    }
+
+    /* Five-block */
+
+.five-block {
+    padding: 0px 80px;
+    height: 140px; 
+    background:  #FFFFFF;
+    margin-bottom: 81px;
+    display: flex;
+}
+
+    .five-block-flex {
+      display: flex;
+      width: 400px;
+    height: 140px;
+    }
+
+
+        
