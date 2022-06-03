@@ -12,7 +12,6 @@ body {
 
 .header {
     padding: 0px 80px;
-    height: 90px; 
     background: #FFFFFF;  
     display: flex;
     justify-content: space-between;
@@ -20,9 +19,18 @@ body {
     margin-bottom: 20px;
 }
 
+/* .active {
+    color: #4200FF;
+
+} */
+
+/* .active:hover {
+    color: aqua;
+} */ 
+
 .header-first-block {
    display: flex;
-   width: 657px;
+   width: 681px;
    justify-content: space-between;
    align-items: center;
 }
@@ -165,7 +173,6 @@ margin-bottom: 30px;
 
 .third-block {
     padding: 0px 80px;
-    height: 140px; 
     background:  #FFFFFF;
     display: flex;
     justify-content: space-between;
@@ -173,44 +180,50 @@ margin-bottom: 30px;
     
 }
 
-.card-one {
-    width: 400px;
+.card-one, .card-two  {
     border: 1.5px solid #F2F2F2;
     border-radius: 5px;
     display: flex;
-    margin-right: 20px;
-}
-
-.card-two {
-    width: 400px;
-    border: 1.5px solid #F2F2F2;
-    border-radius: 5px;
-    display: flex;
-    margin-right: 20px;
+    padding-right: 7px;
 }
 
 .card-three {
-    width: 400px;
     border: 1.5px solid #F2F2F2;
     border-radius: 5px; 
     display: flex;
-}
+    padding-right: 7px;
+} 
 
 
-.chair {
-    width: 105px;
-    background: #F9F9F9;
+.card-one-photo {
+    width: 110px;
+    background-image: url(./images/chair-big.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: #F5F5F5;
+    background-position: left 0 top 10px, left 0 top 350px;
+    
 }
 
-.tyre {
-    width: 135px;
-    background: #F9F9F9;              
+.card-two-photo {
+    width: 145px;   
+    background-image: url(./images/tyre-little.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: #F5F5F5;
+    background-position: left 0 top 15px, left 0 top 350px;
 }
 
-.wheel {
-    width: 117px;
-    background: #F9F9F9;
+.card-three-photo {
+    width: 110px;
+    height: 129px;
+    background-image: url(./images/wheel-big.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: #F5F5F5;
+    background-position: left 0 top 6px, left 0 top 350px
 }
+
 
 .h2 {
     
@@ -218,7 +231,6 @@ margin-bottom: 30px;
     font-size: 18px;
     line-height: 23px;
     color: #000000;
-    
 }
 
 .card-text-padding {
@@ -243,14 +255,14 @@ margin-bottom: 30px;
 }
 
 .four-block-left {
-    min-width: 380px;
+    padding: 11px 10px 0 11px;
     background: #F7F7F7;
     border-radius: 5px;
     margin-right: 20px;  
 }
 
 .four-block-right {
-   width: 894px;
+   width: 820px;
    display: flex;
    flex-wrap: wrap;
 }
@@ -266,6 +278,7 @@ margin-bottom: 30px;
 
 .menu-item-selected {
     background: #4200FF;
+    width: 358px;
 }
 
 .menu-item-first {
@@ -307,23 +320,23 @@ margin-bottom: 30px;
 
 
 .card-tyre {
-    width: 278px;
+    width: 250px; 
     height: 356px;
     background: #FFFFFF;
     box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.1);
     border-radius: 5px;
     margin-right: 20px;
+    
+}
+
+.margin {
     margin-bottom: 20px;
 }
 
-/* .card-tyre:nth-child(3n) {
-    margin-right: 0;
-}
+.card-tyre:nth-child(3n) {
+    margin-right: 0; 
+} 
 
-.card-tyre:nth-child(6n) {
-    margin-right: 0;
-} */
-    
 
 .image {
     display: block;
@@ -331,10 +344,11 @@ margin-bottom: 30px;
     margin-right: auto;
     padding-top: 25px;
     padding-bottom: 18px;
-    }
+}
+
 .image-block {
-    width: 278px;
-    height: 229px;
+    /* width: 278px;
+    height: 229px; */
     left: 480px;
     top: 950px;
     background: #F7F7F7;
@@ -343,7 +357,7 @@ margin-bottom: 30px;
 
 h3 {
     font-size: 17px;
-     line-height: 22px;
+    line-height: 22px;
     color: #000000;
      margin-bottom: 10px;
      width: 222px;
@@ -362,27 +376,341 @@ h3 {
     display: flex;
     justify-content: space-between; 
     margin-top: 24px;
+    padding-bottom: 20px;
 }
 
 .price {
     margin-right: 20px;
-    }
+}
 
-    /* Five-block */
+    /* 5-ve-block */
 
 .five-block {
     padding: 0px 80px;
     height: 140px; 
     background:  #FFFFFF;
-    margin-bottom: 81px;
+    margin-bottom: 81.2px;
     display: flex;
 }
 
-    .five-block-flex {
-      display: flex;
-      width: 400px;
+.five-block-flex {
+    display: flex;
+    width: 400px;
     height: 140px;
-    }
+    border: 1.5px solid #F2F2F2;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+
+.five-block-flex:nth-child(3n) {
+    margin-right: 0;
+}
+
+.five-block-image {
+    background: #F9F9F9;
+    border-radius: 4px 0px 0px 4px;
+    width: 160px;
+     height: 137.8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.five-block-text {
+    padding: 36px 0 0 14px;
+}
+
+.five-block-flex h4 {
+    
+     font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+.five-block .text2 {
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+    /* 6-x block */
+
+.six-block {
+    padding: 0px 80px;
+    height: 358px; 
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 80px;
+}
+ 
+p {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 47px;  
+    color: #000000;
+    margin-bottom: 52px;
+}
+.input-six-block {
+  
+    height: 60px;
+    width: 200px;
+    border: 2px solid rgba(0, 0, 0, 0.872);
+    border-radius: 8px;
+    padding-left: 30px;
+    padding-right: 88px;
+    font-size: 28px;
+    line-height: 36px;
+    font-weight: 400;
+    color: #000000;
+    font-size: 18px;
+    background-color:  #f5f5f52f;
+}
+    
+.input1 {
+    display: flex;
+}
+
+.border4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 7px;
+    width: 75px;
+    height: 58px;
+    margin-left: -105px;
+    margin-top: 1px; 
+}
+
+.six-block-left-size {
+    padding-top: 80px;
+    padding-left: 40px;
+    padding-right: 12px;
+    background: #F5F5F5;
+}
 
 
-        
+.six-block-right-size {
+   width: 1000px;
+   height: 100%;
+   background-image: url('./images/car.png');
+   background-repeat: no-repeat;
+   background-size: 100%;
+   background-color:#F7F7F7;
+   border-radius: 3px;
+   background-position: left 0 top 30px, left 0 top 350px;
+}   
+
+/* Eng songi Mahsulotlar */
+
+.eng-barchasi {
+    padding: 0px 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.eng {
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 42px;  
+}   
+
+.barchasi {
+font-weight: 400;
+font-size: 28px;
+line-height: 36px;
+color: rgba(0, 0, 0, 0.9);
+display: flex;
+align-items: center;
+justify-content: center;
+margin-right: -600px;
+}
+
+.border5 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 7px;
+    height: 58px;
+    margin-left: -94.5px;
+    margin-top: 1px;  
+}
+
+    /* 7 block */
+
+.block-seven {
+    padding: 0px 80px;
+    display: flex;
+    width: fit-content;
+    margin-bottom: 80px;
+}
+
+.block-seven-card {
+    width: 280px; 
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    margin-right: 20px;
+}
+
+.card-tyre:nth-child(3n) {
+    margin-right: 0; 
+} 
+
+
+.image2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.size1 {
+    width: 164.97px;
+    padding-top: 20px;
+}
+
+.size2 {
+    width: 227px;
+    height: 227px;
+}
+
+.size3 {
+    width: 221px;
+    padding-top: 45px;
+  
+}
+
+.size4 {
+    width: 182px;
+    padding-top: 25px;
+}
+
+.block-seven-image-block {
+    height: 229px;
+    background: #F7F7F7;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.stars2 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between; 
+    margin-top: 24px;
+    padding-bottom: 20px;
+}
+
+/* Brendlar */
+
+.brendlar {
+    padding: 0px 80px;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 42px;
+    margin-bottom: 30px;
+}
+
+    /* 8 block */
+
+.block-eight {
+    padding: 0px 80px;  
+    display: flex;   
+    flex-wrap: wrap;
+    gap: 16px 19px;
+    width: 100%;
+    margin-bottom: 120px;
+}
+
+.card-cars {
+    width: 280px;
+    height: 165px;
+    background: #F7F7F7;
+    border-radius: 5px;
+    padding-top: 10px;
+}
+
+.card-cars-text {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 42px;
+}
+
+.ford {
+    height: 90px;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+}
+
+/* Footer */
+
+.footer {
+    height: 311px;
+    background: #2F2F2F;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 80px 100px;
+}
+
+.footer-first-block-logo {
+    display: flex;
+    flex-direction: column;
+    width: 260px;
+    margin-right: 20px;
+}
+
+p {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 47px;
+    color: #000000;
+    margin-bottom: 52px;
+}
+
+.footer-telef {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+
+.footer-first-block-center {
+    margin-right: 80px;
+}
+
+ li {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 200%;
+        color: #FFFFFF;
+        list-style-type: none;
+ }
+ .footer-text {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 31px;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+}
+
+.footer-second-block {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 31px;
+    color: #FFFFFF;
+}
+
+.social {
+    display: flex;
+    justify-content: end;
+    height: 30px;
+}
